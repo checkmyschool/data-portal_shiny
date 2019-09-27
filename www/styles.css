@@ -1,0 +1,16 @@
+/*text*/
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto Light', sans-serif;
+}
+
+.navbar-default {
+    background-color: #1C307E !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav > .active > a {
+    color: #fff !important;
+    background-color: #FFCC00 !important;
+    background-image: none !important;
+    
+}
+

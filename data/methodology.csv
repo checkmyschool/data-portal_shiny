@@ -1,0 +1,8 @@
+﻿Variable,Category,Variable Definition
+Remoteness Index,Accessibility,The Remoteness Index is calculated using data on the cost and time of travel from a given school to its Central DepEd office.
+CCT Ratio,Accessibility,The CCT Ratio is the percentage of students at a school receiving conditional cash transfers in a given year.
+Water Access,Amenities,Whether or not a school has access to water.
+Internet Access,Amenities,Whether or not a school has access to internet.
+Electricity Access,Amenities,Whether or not a school has access to electricity.
+Student-Teacher Ratio,Classroom Conditions,The number of students per teacher at a given school.
+Student Classroom Ratio,Classroom Conditions,The number of students per classroom at a given school.
