@@ -15,34 +15,10 @@ library(highcharter)
 # library(sf)
 library(rlist)
 
-# install.packages(c("RColorBrewer", "scales", "lattice", "dplyr", "DT", "rsconnect", "shinythemes", "rgdal", "metricsgraphics", "sf", "RSQLite"))
-
-time_series <- readRDS(file = "./data/time_series.rds")
-
-#pwd <- readRDS(file = "pwd_data.rds")
-
-basic <- readRDS(file = "./basic_data_v2.rds")
 
 methodology <- readRDS(file = "./data/methodology.rds")
 
-# basic <- basic %>% distinct(school_id, .keep_all = TRUE)
 
-# basic <- read.csv("./data/pwd_gender_basic.csv")
-
-# saveRDS(basic, "./data/pwd_gender_basic.rds")
-
-# basic <- readRDS("./data/pwd_gender_basic.rds")
-
-
-
-# all_data <- read.csv("./data/this_one.csv")
-# saveRDS(all_data, "./data/this_one.rds")
-# all_data <- readRDS("./data/this_one.rds")
-
-
-# all_data$latitude <- as.numeric(as.character(all_data$latitude))
-
-# saveRDS(all_data, "./data/this_one.rds")
 all_data <- readRDS("./data/this_one.rds")
 
 all_data$numeric <- as.character(all_data$school_year)
@@ -150,8 +126,6 @@ ts_clean <- c(
   "shi_score",
   "comments"
 )
-
-ts_clean <- time_series[ts_clean]
 
 ts_clean <- setNames(ts_clean, c(
   "School Year",

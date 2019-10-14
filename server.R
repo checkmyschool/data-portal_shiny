@@ -68,7 +68,7 @@ shinyServer(function(input, output, session) {
     
     
     # Time Series Data Table --------------------------------------------------
-    output$timeseries_table <- DT::renderDataTable(DT::datatable(data = ts_clean, options = list(autoWidth = FALSE), filter = "top"))
+    output$timeseries_table <- DT::renderDataTable(DT::datatable(data = all_data, options = list(autoWidth = FALSE), filter = "top"))
     
     
     # School Profiles ---------------------------------------------------------
@@ -122,7 +122,7 @@ shinyServer(function(input, output, session) {
     profile_2015_data_react <- reactive({
         profile_2015_vars <- c('school_name', "school_id", "region",
                                "division", "district", 'shi_score', 'sni_percentile_text',
-                               'remoteness_index', 'remoteness_cluster', 'remoteness_percentile_cluster', 'cct_percentage',
+                               'remoteness_index', 'remoteness_cluster', 'remoteness_percentile_text', 'cct_percentage',
                                'student_teacher_ratio', 'student_classroom_ratio',
                                'original_water_boolean', 'original_internet_boolean',
                                'original_electricity_boolean')

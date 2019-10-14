@@ -233,7 +233,8 @@ shinyUI(navbarPage(h5("CheckMySchool Data Portal", style = "color: #ffffff;"), t
                                            h1(" "),
                                            
                                            fluidRow(
-                                             column(5, style = "background-color: #DCDCDC; border-radius: 5px; height: 500px;",
+                                             
+                                             column(5, style = "background-color: #DCDCDC; border-radius: 5px; height: 500px; height: 700px",
                                                     
                                                     div(h4(tags$u("School Neediness Index Data")), align = "center"),
                                                     
@@ -243,7 +244,7 @@ shinyUI(navbarPage(h5("CheckMySchool Data Portal", style = "color: #ffffff;"), t
                                              
                                              column(1, " "),
                                              
-                                             column(5, style = "background-color: #DCDCDC; border-radius: 2px; height: 500px;",
+                                             column(5, style = "background-color: #DCDCDC; border-radius: 2px; height: 700px",
                                                     
                                                     div(h4(tags$u("Basic School Data")), align ="center"),#, style="color:red"),
                                                     
@@ -289,7 +290,7 @@ shinyUI(navbarPage(h5("CheckMySchool Data Portal", style = "color: #ffffff;"), t
                                            
                                            fluidRow(
                                              
-                                             column(5, style = "background-color: #DCDCDC; border-radius: 5px; height: 500px;",
+                                             column(5, style = "background-color: #DCDCDC; border-radius: 5px; height: 700px",
                                                     
                                                     div(h4(tags$u("School Neediness Index Data")), align = "center"),
                                                     
@@ -299,7 +300,7 @@ shinyUI(navbarPage(h5("CheckMySchool Data Portal", style = "color: #ffffff;"), t
                                              
                                              column(1, " "),
                                              
-                                             column(5, style = "background-color: #DCDCDC; border-radius: 2px; height: 500px;",
+                                             column(5, style = "background-color: #DCDCDC; border-radius: 2px; height: 700px",
                                                     
                                                     div(h4(tags$u("Basic School Data")), align ="center"),#, style="color:red"),
                                                     
@@ -343,7 +344,7 @@ shinyUI(navbarPage(h5("CheckMySchool Data Portal", style = "color: #ffffff;"), t
                                            
                                            fluidRow(
                                              
-                                             column(5, style = "background-color: #DCDCDC; border-radius: 5px; height: 600px;",
+                                             column(5, style = "background-color: #DCDCDC; border-radius: 5px; height: 700px",
                                                     
                                                     div(h4(tags$u("School Neediness Index Data")), align = "center"),
                                                     
@@ -353,7 +354,7 @@ shinyUI(navbarPage(h5("CheckMySchool Data Portal", style = "color: #ffffff;"), t
                                              
                                              column(1, " "),
                                              
-                                             column(5, style = "background-color: #DCDCDC; border-radius: 2px; height: 600px;",
+                                             column(5, style = "background-color: #DCDCDC; border-radius: 2px; height: 700px",
                                                     
                                                     div(h4(tags$u("Basic School Data")), align ="center"),#, style="color:red"),
                                                     
